@@ -3,7 +3,6 @@ Flask==3.1.1
 flask-cors==4.0.0
 chardet==3.0.4
 pdfplumber==0.11.7
-python-docx==0.8.11
+python-docx==0.8.11  # 用于处理DOCX文件
 spacy==3.8.7
-textract @ git+https://github.com/deanmalmgren/textract.git  # 使用开发版本
 gunicorn==21.2.0
