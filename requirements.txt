@@ -1,8 +1,9 @@
+# requirements.txt
 Flask==3.1.1
-flask-cors==4.0.0  # 新增：处理跨域请求
+flask-cors==4.0.0
 chardet==3.0.4
 pdfplumber==0.11.7
-python-docx==0.8.11  # 修正：正确的包名
+python-docx==0.8.11
 spacy==3.8.7
-textract==1.6.3  # 新增：处理DOC文件
-gunicorn==21.2.0  # 新增：生产环境服务器
+textract @ git+https://github.com/deanmalmgren/textract.git  # 使用开发版本
+gunicorn==21.2.0
