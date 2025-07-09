@@ -4,5 +4,5 @@ chardet==5.2.0
 pdfplumber==0.11.7
 python-docx==0.8.11  # 修正：正确的包名
 spacy==3.8.7
-textract==1.6.5  # 新增：处理DOC文件
+textract==1.6.3  # 新增：处理DOC文件
 gunicorn==21.2.0  # 新增：生产环境服务器
