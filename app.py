@@ -492,13 +492,13 @@ def index():
     return send_from_directory('.', 'index.html')
 
 
-if __name__ == '__main__':
-    logger.info("""
-    首次运行请确保已安装依赖：
-    pip install flask flask-cors pdfplumber python-docx spacy textract chardet
-    python -m spacy download zh_core_web_sm
-    DOC文件处理需额外工具（如antiword），建议优先使用PDF或DOCX格式。
-    """)
-    # 关键修改：使用环境变量中的端口（Render随机分配）
-    port = int(os.environ.get('PORT', 5000))
-    app.run(host='0.0.0.0', port=port)
+# if __name__ == '__main__':
+#     logger.info("""
+#     首次运行请确保已安装依赖：
+#     pip install flask flask-cors pdfplumber python-docx spacy textract chardet
+#     python -m spacy download zh_core_web_sm
+#     DOC文件处理需额外工具（如antiword），建议优先使用PDF或DOCX格式。
+#     """)
+#     # 关键修改：使用环境变量中的端口（Render随机分配）
+#     port = int(os.environ.get('PORT', 5000))
+#     app.run(host='0.0.0.0', port=port)
