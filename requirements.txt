@@ -6,3 +6,4 @@ pdfplumber==0.11.7
 python-docx==0.8.11  # 用于处理DOCX文件
 spacy==3.8.7
 gunicorn==21.2.0
+spacy-pkuseg>=1.0.0  # 添加或确认此依赖
